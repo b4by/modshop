@@ -1,0 +1,15 @@
+.section {
+  padding-bottom: 54px;
+  &__title {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 900;
+    color: var(--secondary-color);
+    margin-bottom: 17px;
+  }
+  &__content {
+    margin-left: -16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

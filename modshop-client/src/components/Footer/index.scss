@@ -1,0 +1,23 @@
+.footer {
+  background-color: #EAEAEA;
+  background-image: url('../../assets/img/target.svg');
+  background-repeat: no-repeat;
+  background-position-x: -144px;
+  background-position-y: 44px;
+  border-bottom: 1px solid rgba(50,50,50,0.08);
+  height: 192px;
+  padding-left: 144px;
+  padding-bottom: 12px;
+  display: flex;
+  align-items: flex-end;
+
+  &__title {
+    margin-left: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--primary-color);
+  }
+  
+}

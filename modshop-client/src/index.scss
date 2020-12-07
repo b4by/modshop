@@ -1,0 +1,29 @@
+@import-normalize;
+@import './styles/base.scss';
+@import './styles/fonts.scss';
+
+:root {
+  --primary-color: rgba(0,0,0,0.36);
+  --secondary-color: #323232;
+  --bg-color: rgba(234,234,234,1);
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-feature-settings: "lnum";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 1024px;
+  padding: 0 64px;
+  margin: 0 auto;
+}

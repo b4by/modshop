@@ -1,0 +1,32 @@
+.nav {
+  background: #FFFFFF;
+  height: 54px;
+  line-height: 54px;
+  border-bottom: 1px solid rgba(50,50,50,0.16);
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+  &__menu {
+    display: flex;
+    &-item {
+      margin-right: 44px;
+    }
+    &-link {
+      font-size: 16px;
+      line-height: 19px;
+      color: var(--primary-color);
+      text-transform: uppercase;
+      letter-spacing: 1.4px;;
+      font-weight: 900;
+      &--active {
+        color: rgba(0,0,0,0.87);
+      }
+    }
+  }
+}
